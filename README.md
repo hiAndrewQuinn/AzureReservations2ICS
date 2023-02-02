@@ -1,13 +1,14 @@
-Modern Python Starter Kit
-=========================
+Azure Reservation CSV to ICal file
+==================================
 
-[A long time back](https://web.archive.org/web/20220720110726/https://leafy-taiyaki-59fd85.netlify.app/)
-I wrote a long document called the "Modern Python Checklist."
-I later decided to wipe my Github, which I'm still mostly happy
-I did, but I found myself increasingly missing as I wanted to
-spin up new projects in the world's programming lingua franca.
+An issue came up with a customer recently where we keep forgetting
+to book our Azure reservations, so I decided to write this little
+CSV to ICS wrapper.
 
-Hence, this starter project. Everything I wanted has been
-reimplemented here, free of charge, and free of any
-expectation that you keep it under some dumb copyleft
-license. Take this with you as you conquer the world.
+## How to use
+
+1. Download the Azure Portal CSV file on your Reservations page.
+2. Run `python main.py wherever.csv`.
+3. The ICal file will appear in that same directory as `wherever.ics`.
+4. Import it wherever you wish!
+
