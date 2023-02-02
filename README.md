@@ -1,9 +1,16 @@
-Azure Reservation CSV to ICal file
+Azure Reservation CSV to `.ics` / ICal file
 ==================================
 
 An issue came up with a customer recently where we keep forgetting
 to book our Azure reservations, so I decided to write this little
 CSV to ICS wrapper.
+
+## Quickstart
+
+```bash
+pip install ics
+pip install click
+```
 
 ## How to use
 
