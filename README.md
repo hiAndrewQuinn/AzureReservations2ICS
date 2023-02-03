@@ -8,13 +8,13 @@ CSV to ICS wrapper.
 ## Quickstart
 
 ```bash
-pip install ics
-pip install click
+pip install ics      # for the ics / ical parser
+pip install click    # for the very tiny cli
 
 git clone https://github.com/hiAndrewQuinn/AzureReservations2ICS.git
 cd AzureReservations2ICS
 
-python main.py your-azure-reservations-download-here.csv
+python main.py --help
 ```
 
 ## How to use
