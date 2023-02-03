@@ -24,11 +24,5 @@ python main.py --help
 3. The ICal file will appear in that same directory as `wherever.ics`.
 4. Import the ICS file to Outlook, Google Calendar, wherever you wish!
 
-## Prerequisites
-
-- `ics` (for handling the ICS stuff)
-- `click` (for the CLI stuff)
-
 This should work even if you have a very large amount of Azure reservations,
-since Python's native `csv` file streams data as needed.
-
+since Python's native `csv` file just streams data as needed.
