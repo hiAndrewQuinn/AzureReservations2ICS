@@ -4,7 +4,6 @@ import json
 
 import ics
 import click
-import arrow
 
 
 # The utf-8-sig is because the CSV file downloaded from Azure
