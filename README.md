@@ -1,9 +1,7 @@
 Azure Reservation CSV to `.ics` / ICal file
 ==================================
 
-An issue came up with a customer recently where we keep forgetting
-to book our Azure reservations, so I decided to write this little
-CSV to ICS wrapper.
+A tiny CSV to ICS wrapper that can save you a lot of money.
 
 ## Quickstart
 
